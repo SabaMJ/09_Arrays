@@ -6,36 +6,36 @@ public class App {
 
     public static void main(String[] args) {
 
-      	// // Deklaration: int
-		// int [] intArr = new int [4];
-		// output("Länge Array: " + intArr.length);	
+      	// Deklaration: int
+		int [] intArr = new int [4];
+		output("Länge Array: " + intArr.length);	
 		
-		// // Index
-		// output("3. Element " + intArr[2]);
+		// Index
+		output("3. Element " + intArr[2]);
 		
-		// intArr[0] = 10;
-		// output("1. Element " + intArr[0]);
-		// intArr[intArr.length - 1] = 11;
+		intArr[0] = 10;
+		output("1. Element " + intArr[0]);
+		intArr[intArr.length - 1] = 11;
 		
-		// output("------------------ ");
+		output("------------------ ");
 
-		// for (int i = 0; i < intArr.length; i++) {
-		// 	output("Element: " + i + " : "+ intArr[i]);
-		// }
+		for (int i = 0; i < intArr.length; i++) {
+			output("Element: " + i + " : "+ intArr[i]);
+		}
 			
 		// Deklaration: String
 		// String [] strArr = new String [2];
-		// String [] strArr = {"Hallo","Nikola"};
+		String [] strArr = {"Hallo","Nikola"};
 		
-		// for (int i = 0; i < strArr.length; i++) {
-		// 	output("Element: " + strArr[i]);
-		// }
+		for (int i = 0; i < strArr.length; i++) {
+			output("Element: " + strArr[i]);
+		}
 		
 		
 		// Mehrdimensionale Arrays
 		// String [][] strMdArr = new String [2][2];
 		
-		// String [][] strMdArr = {{"Max","Mustermann"},{"Maxine","Musterfrau"}};
+		 String [][] strMdArr = {{"Max","Mustermann"},{"Maxine","Musterfrau"}};
 		
 		// {{0,2,1},{1,0,0}}  x|y|z
 		
@@ -50,22 +50,22 @@ public class App {
 		// }
 		
 		// // Deklaration | Chars
-		// char [] letters = {'d','c','a','A','b'};
+		char [] letters = {'d','c','a','A','b'};
 	
-		// 	output("");
-		// 	output("---- vor Sortierung: ");
-		// 	for (int i = 0; i < letters.length; i++) {
-		// 		output(letters[i]);	
-		// 	}
+			output("");
+			output("---- vor Sortierung: ");
+			for (int i = 0; i < letters.length; i++) {
+				output(letters[i]);	
+			}
 
-		// // Sortierfkt. --> sortiertes Array
-		// Arrays.sort(letters);  // Statische Klasse | Methode
+		// Sortierfkt. --> sortiertes Array
+		Arrays.sort(letters);  // Statische Klasse | Methode
 
-		// output("");
-		// output("---- nach Sortierung: ");
-		// for (int i = 0; i < letters.length; i++) {
-		// 	output(letters[i]);	
-		// }
+		output("");
+		output("---- nach Sortierung: ");
+		for (int i = 0; i < letters.length; i++) {
+			output(letters[i]);	
+		}
 
 		// 	output("");
 		// 	output("---- Suche: erfolgreich ----");
